@@ -19,7 +19,7 @@ for x in range(4):
     sleep(4)
     driver.find_element_by_name('5.1.27.1.23').click()
     sleep(4)
-    driver.find_element_by_name('5.1.27.7.7').send_keys(classes[y])
+    driver.find_element_by_name('5.1.27.7.7').send_keys("the class code")
     sleep(4)
     driver.find_element_by_name('5.1.27.7.9').click()
     sleep(4)
