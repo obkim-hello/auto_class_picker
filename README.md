@@ -19,3 +19,5 @@ If you look carefully there are many sleep() in the code, this is for simulate h
 7. In line 5: put the number of time that you want to try
 
 8. In line 33: put the amoung of time that you want to wait in each try cycle 
+
+Now you can run the script 
