@@ -2,7 +2,7 @@ from selenium import webdriver
 from time import sleep
 
 driver = webdriver.Chrome(executable_path="/Users/username/Desktop/chromedriver")
-for x in range(4):
+for x in range(30):
     driver.get("https://wrem.sis.yorku.ca/Apps/WebObjects/REM.woa/wa/DirectAction/rem")
     sleep(1)
     driver.find_element_by_xpath("//input[@name=\"mli\"]").send_keys("your username")
