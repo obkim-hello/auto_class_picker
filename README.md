@@ -1,6 +1,7 @@
 # auto_class_picker
 This is a auto classes picker for York University 
-USE IT ON YOUR OWN RISK (you will get ban if you try too many time in a short time)
+-USE IT ON YOUR OWN RISK (you will get ban if you try too many time in a short time)-
+-Be sure not make the wait time too short(its in sec)-
 
 If you look carefully there are many sleep() in the code, this is for simulate human operation
 
