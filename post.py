@@ -1,6 +1,6 @@
 from selenium import webdriver
 from time import sleep
-
+from random import randrange
 driver = webdriver.Chrome(executable_path="/Users/username/Desktop/chromedriver")
 for x in range(30):
     driver.get("https://wrem.sis.yorku.ca/Apps/WebObjects/REM.woa/wa/DirectAction/rem")
@@ -30,4 +30,4 @@ for x in range(30):
     driver.find_element_by_name('5.1.3.1.1').click()
     sleep(4)
     driver.close()
-    sleep(1800)
+    sleep(randrange(1800))
